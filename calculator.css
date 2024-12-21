@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Roboto", serif;
+}
+
+.title-text{
+    text-align: center;
+}
+
+.container{
+    background: black;
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.input{
+    margin-bottom: 18px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    width: 240px;
+    height: 40px;
+    color: white;
+    font-size: larger;
+    background-color: black;
+    border-radius: 5px;
+}
+
+ button{
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 20px;
+    margin: 0 3px;
+    width: 59px;
+    
+}
+button:hover{
+    opacity: 0.9;
+}
+
+.multiply,
+.divide,
+.minus, .add, .equal{
+    background-color: #FF9500;
+    color: white;
+}
+
+.ac,
+.arrow,
+.modulo{
+    background-color: #D4D4D2;
+    color: black;
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .zero, .zeroo, .decimal{
+    background-color: #505050;
+    color: white;
+}
